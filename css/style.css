@@ -8015,7 +8015,7 @@ a.text-info:hover, a.text-info:focus {
   color: #0f6674 !important; }
 
 .text-warning {
-  color: #ffc107 !important; }
+  color: #ba8b00 !important; }
 
 a.text-warning:hover, a.text-warning:focus {
   color: #ba8b00 !important; }
@@ -8033,7 +8033,7 @@ a.text-light:hover, a.text-light:focus {
   color: #cbd3da !important; }
 
 .text-dark {
-  color: #343a40 !important; }
+  color: #ba8b00 !important; }
 
 a.text-dark:hover, a.text-dark:focus {
   color: #121416 !important; }
@@ -9697,6 +9697,50 @@ textarea.form-control {
 
     #textmail
     {
-      padding-left: 20px;
+      padding-left: 0px;
     }
     
+
+    /*Renk Degisimi*/
+
+    .ftco-navbar-light .navbar-nav > .nav-item .nav-link.active {
+      color: #5aaee9 !important;
+    }
+
+    .ftco-navbar-light.scrolled .nav-link.active {
+      color: #5aaee9 !important;
+    }
+
+    .ftco-navbar-light .navbar-nav > .nav-item > .nav-link span:before {
+      background: #5aaee9 !important;
+    }
+
+    .owl-carousel.home-slider .slider-item .slider-text .subheading {
+      color: #5aaee9 !important;
+    }
+
+    .owl-carousel.home-slider .slider-item .slider-text h1 span {
+      color: #5aaee9 !important;
+    }
+
+    .btn.btn-primary {
+      background: #5aaee9 !important;
+      border: 1px solid #5aaee9 !important;
+    }
+
+    .btn.btn-primary:hover {
+      background: #5aaee9 !important;
+      border: 1px solid #5aaee9 !important;
+    }
+
+    .resume-wrap .date {
+      color: #5aaee9 !important;
+    }
+
+    .progress-bar {
+      background: #5aaee9 !important;
+    }
+
+    .contact-section .box .icon span {
+      color: #5aaee9 !important;
+    }
