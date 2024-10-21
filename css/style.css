@@ -9744,3 +9744,15 @@ textarea.form-control {
     .contact-section .box .icon span {
       color: #5aaee9 !important;
     }
+
+   
+/* Mobil cihazlar için medya sorgusu */
+@media only screen and (max-width: 768px) {
+  #background-div1 {
+    background-image: url('../images/trabzon_m1.webp') !important;
+  }
+  #background-div2 {
+    background-image: url('../images/trabzon_m2.webp') !important;
+  }
+}
+
