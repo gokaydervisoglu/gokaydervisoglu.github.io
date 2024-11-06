@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Projects</title>
+    <link rel="icon" type="image/x-icon" href="../image/favicon.ico" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/projects.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NAV-BAR MENÜ : LEPTOP VE MOBİL UYUMLU-->
+    <nav class="navbar">
+      <a href="index.html" class="logo">GÖKAY DERVİŞOĞLU</a>
+
+      <div class="navbar-mobil" onclick="toggleMenu()">☰</div>
+
+      <ul class="nav-links">
+        <li><a href="projects.html">Project</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- MY-PROJECTS TITLE MENÜ : LEPTOP VE MOBİL UYUMLU-->
+    <div class="my-projects-title">
+      <div class="container">
+        <div class="row">
+          <section>
+            <h1 class="main-logo">My Projects</h1>
+            <p style="color: #999696; padding: 20px 0px">
+              "Here are a few projects I've worked on, highlighting my expertise
+              in software development, problem-solving, and creativity. Each
+              project represents my passion for technology and my continuous
+              growth as a developer."
+            </p>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <!-- MY-PROJECTS DETAIL MENÜ : LEPTOP VE MOBİL UYUMLU-->
+    <div class="my-projects-detail">
+      <div class="container">
+        <div class="filter-buttons">
+          <button onclick="filterProjects('all')">All</button>
+          <button onclick="filterProjects('school')">School Projects</button>
+          <button onclick="filterProjects('personal')">
+            Personal Projects
+          </button>
+        </div>
+
+        <div class="row">
+          <div class="item school">
+            <a
+              href="https://github.com/gokaydervisoglu/comic-book-manager-app"
+              target="_blank"
+            >
+              <img src="../image/comicbook.webp" alt="Comic Book Icon" />
+            </a>
+          </div>
+          <div class="item school">
+            <a
+              href="https://github.com/gokaydervisoglu/medical-store-management"
+              target="_blank"
+            >
+              <img src="../image/medicalstore.webp" alt="Healthcare Icon" />
+            </a>
+          </div>
+          <div class="item personal">
+            <img src="../image/arproject.webp" alt="AR Icon" />
+          </div>
+          <div id="long-item" class="item personal">
+            <img src="../image/air_defence.jpg" alt="Air Defense System" />
+          </div>
+          <div id="long-item" class="item personal">
+            <img src="../image/sayzek.png" alt="SAYZ Logo" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/projects.js"></script>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+  /*About Menu*/
+
+  .about-content {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .about-left-section img
+  {
+    width: 420px;
+    height: auto;
+    border-radius: 10px;
+    margin: 0px 20px;
+  }
+
+  .about-left-section,
+  .about-right-section {
+  flex: 1;
+  padding: 30px;
+  border-radius: 8px;
+  }
+
+  .about-left-section h2,
+  .about-right-section h2 {
+    margin-bottom: 10px;
+  }
+
+
+  /* Contact Mini */
+
+  .contact-info {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    color: #999696;
+  }
+  
+  .contact-info li {
+    margin-bottom: 10px;
+  }
+  
+  .contact-info li strong {
+    color: #fff;
+  }
+  
+  .contact-info li a {
+    color: #999696;
+    text-decoration: none;
+  }
+  
+  .contact-info li a:hover {
+    text-decoration: underline;
+  }
+  
+
+  /* About Button*/
+
+  #aboutButton {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #aboutButton:hover {
+    background-color: #555;
+  }
+  
+  #aboutButton:active {
+    background-color: #222;
+  }
+  
+  
+  @media (max-width: 768px) {
+
+    .about-left-section img
+    {
+      padding: 30px;
+    }
+  }

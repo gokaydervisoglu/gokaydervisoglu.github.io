@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../image/favicon.ico" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+
+    <title>Home Page</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NAV-BAR MENÜ : LEPTOP VE MOBİL UYUMLU-->
+    <nav class="navbar">
+      <a href="index.html" class="logo">GÖKAY DERVİŞOĞLU</a>
+
+      <div class="navbar-mobil" onclick="toggleMenu()">☰</div>
+
+      <ul class="nav-links">
+        <li><a href="projects.html">Project</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- İki Kısım Yan Yana Yapı -->
+    <main class="main-content">
+      <div class="row">
+        <section class="left-section">
+          <h3 style="color: #5aaee9">Hello!</h3>
+          <h1 class="main-logo">
+            I'm
+            <span style="color: #5aaee9">Gökay DERVİŞOĞLU</span>
+          </h1>
+          <h2>A Computer Engineer Student</h2>
+          <div id="my_clock"></div>
+        </section>
+        <section class="right-section">
+          <img src="../image/trabzon.webp" alt="trabzon" />
+        </section>
+      </div>
+    </main>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>

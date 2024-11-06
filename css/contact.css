@@ -1,0 +1,94 @@
+/* Sayfanın ortasına hizalama */
+.outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+/* Form kutusu stili */
+.contact-container {
+    background-color: #2a2a2a;
+    padding: 60px 40px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 650px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #ffffff;
+}
+
+.contact-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-container hr {
+    width: 50px;
+    height: 2px;
+    background-color: #ffffff;
+    border: none;
+    margin: 10px auto 20px;
+}
+
+/* Form Yapısı*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-size: 16px;
+    text-align: left;
+}
+
+form input, form textarea {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #333;
+    color: #ffffff;
+}
+
+form input:focus, form textarea:focus {
+    outline: none;
+    border-color: #555;
+}
+
+/* Contact Form Button*/
+
+button {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #111;
+}
+
+/* Mesaj Kutusu Ayar*/
+
+textarea {
+    width: 100%;
+    resize: vertical;
+    min-height: 100px;
+    max-height: 250px;
+}
+
+
+@media (max-width: 768px) {
+
+    .outer-container {
+        padding: 20px;
+    }
+  }

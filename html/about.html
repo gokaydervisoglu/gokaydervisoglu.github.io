@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="icon" type="image/x-icon" href="../image/favicon.ico" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/about.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NAV-BAR MENÜ : LEPTOP VE MOBİL UYUMLU-->
+    <nav class="navbar">
+      <a href="index.html" class="logo">GÖKAY DERVİŞOĞLU</a>
+
+      <div class="navbar-mobil" onclick="toggleMenu()">☰</div>
+
+      <ul class="nav-links">
+        <li><a href="projects.html">Project</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- ABOUT-CONTENT MENÜ : LEPTOP VE MOBİL UYUMLU-->
+    <main class="about-content">
+      <div class="container">
+        <div class="row">
+          <section class="about-left-section">
+            <img src="../image/gokay.jpg" alt="trabzon" />
+          </section>
+
+          <section class="about-right-section">
+            <h1 class="main-logo">About Me</h1>
+            <ul class="contact-info">
+              <li><strong>Name:</strong> Gökay Dervişoğlu</li>
+              <li><strong>Date of Birth:</strong> July 23, 2003</li>
+              <li>
+                <strong>Email:</strong>
+                <a href="mailto:gokaydervisoglu@gmail.com"
+                  >gokaydervisoglu@gmail.com</a
+                >
+              </li>
+            </ul>
+            <p id="description" style="color: #999696; padding: 20px 0px">
+              I am a computer engineering candidate with a strong sense of
+              design and experience in various web-based projects. I have
+              hands-on expertise in technologies such as Java, OOP, C#, .NET,
+              C++, Maven, and SQL.
+            </p>
+
+            <button id="aboutButton" onclick="abouttext()">See More</button>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/about.js"></script>
+  </body>
+</html>

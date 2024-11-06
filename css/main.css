@@ -1,0 +1,71 @@
+/* Main */
+
+  .main-content {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  
+  .left-section,
+  .right-section {
+    flex: 1; 
+    padding: 60px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .left-section h2,
+  .right-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .right-section img
+  {
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .main-logo
+  {
+    font-size: 60px;
+  }
+  
+  @media (max-width: 768px) {
+    .left-section,
+    .right-section {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      margin-top: 40px;
+    }
+  
+    .main-content
+    {
+        display: block;
+        padding: 20px 0px;
+    }
+
+    .right-section img
+    {
+      padding: 30px;
+    }
+
+    .right-section {
+      position: fixed;
+      top: 40px;
+      opacity: 0.2;
+    }
+
+
+  }
+  
+  /* Saat */
+  
+  #my_clock {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
