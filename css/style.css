@@ -28,8 +28,6 @@
     color: #fff; /* Metin rengi */
     font-weight: bold;
   }
-
-
   
   .navbar ul {
     top: 70px; 
@@ -126,3 +124,13 @@
     }
   }
 
+  .my-footer
+  {
+    text-align: center;
+  }
+
+  .my-footer a
+  {
+    text-decoration: none;
+    padding: 2px;
+  }

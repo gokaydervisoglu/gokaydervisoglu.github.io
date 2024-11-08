@@ -10,3 +10,22 @@ function updateClock() {
   
   setInterval(updateClock, 1000);
   updateClock();
+
+
+  function adjustFooterMargin() {
+    const mainContent = document.querySelector('.main-content');
+    const myfooter = document.querySelector('.my-footer');
+    const windowHeight = window.innerHeight; // Ana sayfa height
+    const mainContentHeight = mainContent.offsetHeight; // Main content height
+
+    if (window.innerWidth <= 768) {
+        const marginTop = windowHeight - mainContentHeight - myfooter.offsetHeight - 100;
+        myfooter.style.marginTop = marginTop > 0 ? `${marginTop}px` : '0px';
+    } else {
+        myfooter.style.marginTop = '0px';
+    }
+}
+
+window.addEventListener('load', adjustFooterMargin);
+window.addEventListener('resize', adjustFooterMargin);
+
