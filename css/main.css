@@ -54,7 +54,7 @@
 
     .right-section {
       position: fixed;
-      top: 40px;
+      top: 0px;
       opacity: 0.2;
     }
 

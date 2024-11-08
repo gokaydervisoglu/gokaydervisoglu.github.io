@@ -59,31 +59,38 @@
 
         <div class="row">
           <div class="item school">
-            <a
-              href="https://github.com/gokaydervisoglu/comic-book-manager-app"
-              target="_blank"
-            >
+            <a href="javascript:void(0);" onclick="myLightbox_open('../image/comicbook.webp', 'Comic Book Manager App: Manage your comic book collection with ease.')">
               <img src="../image/comicbook.webp" alt="Comic Book Icon" />
             </a>
           </div>
           <div class="item school">
-            <a
-              href="https://github.com/gokaydervisoglu/medical-store-management"
-              target="_blank"
-            >
+            <a href="javascript:void(0);" onclick="myLightbox_open('../image/medicalstore.webp', 'Medical Store Management: A system to manage medical inventory.')">
               <img src="../image/medicalstore.webp" alt="Healthcare Icon" />
             </a>
           </div>
           <div class="item personal">
-            <img src="../image/arproject.webp" alt="AR Icon" />
+            <a href="javascript:void(0);" onclick="myLightbox_open('../image/arproject.webp', 'Augmented Reality Project: Exploring AR in practical applications.')">
+              <img src="../image/arproject.webp" alt="AR Icon" />
+            </a>
           </div>
           <div id="long-item" class="item personal">
-            <img src="../image/air_defence.jpg" alt="Air Defense System" />
+            <a href="javascript:void(0);" onclick="myLightbox_open('../image/air_defence.jpg', 'Air Defense System: An advanced system for air defense mechanisms.')">
+              <img src="../image/air_defence.jpg" alt="Air Defense System" />
+            </a>
           </div>
           <div id="long-item" class="item personal">
-            <img src="../image/sayzek.png" alt="SAYZ Logo" />
+            <a href="javascript:void(0);" onclick="myLightbox_open('../image/sayzek.png', 'SAYZEK Project: A project featured in the SAYZEK competition.')">
+              <img src="../image/sayzek.png" alt="SAYZ Logo" />
+            </a>
           </div>
         </div>
+        
+
+    <div id="lightbox" class="lightbox">
+      <div class="lightbox-content">
+        <span class="close" onclick="myLightbox_close()">×</span>
+        <img src="" id="lightbox-img" alt="Project Image" />
+        <p id="lightbox-description"></p>
       </div>
     </div>
 

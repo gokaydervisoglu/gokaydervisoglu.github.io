@@ -14,3 +14,16 @@ function filterProjects(category) {
     });
   }
   
+
+  function myLightbox_open(imgSrc, description) {
+    const lightbox = document.getElementById("lightbox");
+    document.getElementById("lightbox-img").src = imgSrc;
+    document.getElementById("lightbox-description").innerText = description;
+    lightbox.style.display = "flex";
+  }
+  
+  function myLightbox_close() {
+    const lightbox = document.getElementById("lightbox");
+    lightbox.style.display = "none";
+  }
+  
