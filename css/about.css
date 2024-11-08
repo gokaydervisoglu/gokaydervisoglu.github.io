@@ -8,7 +8,7 @@
   
   .about-left-section img
   {
-    width: 420px;
+    width: 340px;
     height: auto;
     border-radius: 10px;
   }
@@ -79,10 +79,10 @@
   
   @media (max-width: 768px) {
 
-    .about-left-section img
-    {
-      padding: 30px;
-    }
+  .about-left-section,
+  .about-right-section {
+  text-align: center;
+  }
 
     .about-content {
       display: block;
