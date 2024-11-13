@@ -54,7 +54,7 @@
     text-decoration: none;
 }
 
-  .active::after {
+  .active-link::after {
     content: "";
     position: absolute;
     left: 0;
