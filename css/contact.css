@@ -1,5 +1,5 @@
-/* Sayfanın ortasına hizalama */
-.outer-container {
+
+.my-contact-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,7 +7,7 @@
 }
 
 /* Form kutusu stili */
-.contact-container {
+.my-contact-detail {
     background-color: #2a2a2a;
     padding: 60px 40px;
     border-radius: 8px;
@@ -18,13 +18,7 @@
     color: #ffffff;
 }
 
-.contact-container h2 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.contact-container hr {
+.my-contact-detail hr {
     width: 50px;
     height: 2px;
     background-color: #ffffff;
@@ -41,7 +35,6 @@ form {
 }
 
 form label {
-    font-size: 16px;
     text-align: left;
 }
 
@@ -56,7 +49,7 @@ form input, form textarea {
 
 form input:focus, form textarea:focus {
     outline: none;
-    border-color: #555;
+    border-color: #ffffff;
 }
 
 /* Contact Form Button*/
@@ -85,10 +78,34 @@ textarea {
     max-height: 250px;
 }
 
+.my-contact-error {
+    visibility: hidden;
+    z-index: 20;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 16px;
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.my-contact-error.show {
+    visibility: visible;
+    opacity: 1;
+}
 
 @media (max-width: 768px) {
 
-    .outer-container {
+    .my-contact-container  {
         padding: 20px;
+    }
+
+    .my-contact-error {
+        top: 10%;
     }
   }
