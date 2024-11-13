@@ -34,9 +34,8 @@ function submitForm(event) {
         return;
     }
 
-    const mailtoLink = `mailto:gokaydervisoglu@gmail.com?subject=Contact from ${encodeURIComponent(name)}&body=${encodeURIComponent(message)}`;
+    const mailtoLink = `mailto:gokaydervisoglu@gmail.com?subject= ${encodeURIComponent(name)}&body=${encodeURIComponent(message)}`;
 
-    showError("All fields are valid. Redirecting to your mail application...");
     setTimeout(() => {
         window.location.href = mailtoLink;
     }, 2000);
