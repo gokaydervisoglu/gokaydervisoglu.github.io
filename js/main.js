@@ -15,8 +15,8 @@ function updateClock() {
   function adjustFooterMargin() {
     const mainContent = document.querySelector('.main-content');
     const myfooter = document.querySelector('.my-footer');
-    const windowHeight = window.innerHeight; // Ana sayfa height
-    const mainContentHeight = mainContent.offsetHeight; // Main content height
+    const windowHeight = window.innerHeight; 
+    const mainContentHeight = mainContent.offsetHeight;
 
     if (window.innerWidth <= 768) {
         const marginTop = windowHeight - mainContentHeight - myfooter.offsetHeight - 100;

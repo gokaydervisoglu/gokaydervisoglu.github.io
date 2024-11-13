@@ -1,3 +1,4 @@
+/* Form Box Container */
 
 .my-contact-container {
     display: flex;
@@ -6,7 +7,8 @@
     height: 80vh;
 }
 
-/* Form kutusu stili */
+/* Form Box Style */
+
 .my-contact-detail {
     background-color: #2a2a2a;
     padding: 60px 40px;
@@ -26,7 +28,7 @@
     margin: 10px auto 20px;
 }
 
-/* Form Yapısı*/
+/* Form Detail */
 
 form {
     display: flex;
@@ -69,13 +71,13 @@ button:hover {
     background-color: #111;
 }
 
-/* Mesaj Kutusu Ayar*/
+/* Message Box*/
 
 textarea {
     width: 100%;
     resize: vertical;
     min-height: 100px;
-    max-height: 250px;
+    max-height: 200px;
 }
 
 .my-contact-error {
