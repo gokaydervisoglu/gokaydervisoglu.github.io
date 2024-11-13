@@ -36,7 +36,9 @@ function submitForm(event) {
 
     const mailtoLink = `mailto:gokaydervisoglu@gmail.com?subject= ${encodeURIComponent(name)}&body=${encodeURIComponent(message)}`;
 
+    
     setTimeout(() => {
+        showError("Redirecting to mail application...");
         window.location.href = mailtoLink;
     }, 2000);
 }
