@@ -4,8 +4,22 @@ function showError(message) {
     contactError.className = "my-contact-error show";
 
     setTimeout(() => {
-        contactError.className = contactError.className.replace("show", "");
-    }, 1500);
+        contactError.className = "my-contact-error";
+    }, 3000);
+}
+
+function showSuccess(message) {
+    const contactError = document.getElementById("my-contact-error");
+    contactError.style.background = "rgba(76, 175, 80, 0.95)";
+    contactError.style.boxShadow = "0 10px 30px rgba(76, 175, 80, 0.3)";
+    contactError.textContent = message;
+    contactError.className = "my-contact-error show";
+
+    setTimeout(() => {
+        contactError.className = "my-contact-error";
+        contactError.style.background = "rgba(255, 77, 77, 0.95)";
+        contactError.style.boxShadow = "0 10px 30px rgba(255, 77, 77, 0.3)";
+    }, 3000);
 }
 
 function submitForm(event) {
@@ -34,11 +48,11 @@ function submitForm(event) {
         return;
     }
 
-    const mailtoLink = `mailto:gokaydervisoglu@gmail.com?subject= ${encodeURIComponent(name)}&body=${encodeURIComponent(message)}`;
+    const mailtoLink = `mailto:gokaydervisoglu@gmail.com?subject=Contact from ${encodeURIComponent(name)}&body=${encodeURIComponent(message + "\n\n---\nSent from gokaydervisoglu.com")}`;
 
+    showSuccess("Form submitted successfully! Redirecting to email...");
     
     setTimeout(() => {
-        showError("Redirecting to mail application...");
         window.location.href = mailtoLink;
-    }, 2000);
+    }, 1500);
 }

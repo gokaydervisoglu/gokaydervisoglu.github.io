@@ -20,7 +20,11 @@
     <nav class="navbar">
       <a href="../index.html" class="logo">GÖKAY DERVİŞOĞLU</a>
 
-      <div class="navbar-mobil" onclick="toggleMenu()">☰</div>
+      <div class="navbar-mobil" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
 
       <ul class="nav-links">
         <li><a href="projects.html">Project</a></li>
@@ -34,29 +38,56 @@
       <div class="container">
         <div class="row">
           <section class="about-left-section">
-            <img src="../image/gokay.jpg" alt="trabzon" />
+            <div class="profile-image-wrapper">
+              <img src="../image/user.jpeg" alt="Gökay Dervişoğlu" />
+            </div>
           </section>
 
           <section class="about-right-section">
             <h1 class="main-logo">About Me</h1>
-            <ul class="contact-info">
-              <li><strong>Name:</strong> Gökay Dervişoğlu</li>
-              <li><strong>Date of Birth:</strong> July 23, 2003</li>
-              <li>
-                <strong>Email:</strong>
-                <a href="mailto:gokaydervisoglu@gmail.com"
-                  >gokaydervisoglu@gmail.com</a
-                >
-              </li>
-            </ul>
-            <p id="description" style="color: #999696; padding: 20px 0px">
-              I am a computer engineering candidate with a strong sense of
-              design and experience in various web-based projects. I have
-              hands-on expertise in technologies such as Java, OOP, C#, .NET,
-              C++, Maven, and SQL.
+            <p id="description" style="color: #999696; padding: 15px 0px">
+              As a Computer Engineering student, I develop projects across a
+              wide range of areas—from real-time artificial intelligence
+              applications to web development and object-oriented programming
+              (OOP) principles. With experience in image processing, deep
+              learning, and embedded system integration, I design user-focused,
+              sustainable, and scalable solutions while effectively
+              communicating and leading in multidisciplinary teams to bring
+              ideas to life efficiently.
             </p>
 
-            <button id="aboutButton" onclick="abouttext()">See More</button>
+            <!-- Experience Section -->
+            <div class="experience-section">
+              <h2 style="color: #5aaee9; margin-top: 0; margin-bottom: 20px">
+                Experience
+              </h2>
+              <div class="experience-item">
+                <div class="experience-header">
+                  <h3 style="color: #fff; margin-bottom: 5px">
+                    Software Development Intern
+                  </h3>
+                  <p
+                    style="color: #5aaee9; font-size: 16px; margin-bottom: 5px"
+                  >
+                    Kafein Technology Solutions
+                  </p>
+                  <p
+                    style="color: #999696; font-size: 14px; margin-bottom: 15px"
+                  >
+                    Haziran 2025 - Ağustos 2025 · 3 ay · İstanbul, Türkiye ·
+                    Uzaktan
+                  </p>
+                </div>
+                <p style="color: #cccccc; line-height: 1.6">
+                  Information Security Intern at Kafein Bilişim. Using Dataskope
+                  and its Data Touch module for data governance and policy
+                  management.
+                </p>
+                <div class="experience-tags">
+                  <span class="tag">Software Development</span>
+                </div>
+              </div>
+            </div>
           </section>
         </div>
       </div>

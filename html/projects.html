@@ -20,7 +20,11 @@
     <nav class="navbar">
       <a href="../index.html" class="logo">GÖKAY DERVİŞOĞLU</a>
 
-      <div class="navbar-mobil" onclick="toggleMenu()">☰</div>
+      <div class="navbar-mobil" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
 
       <ul class="nav-links">
         <li><a class="active-link" href="projects.html">Project</a></li>
@@ -36,10 +40,10 @@
           <section>
             <h1 class="main-logo">My Projects</h1>
             <p style="color: #999696; padding: 20px 0px">
-              "Here are a few projects I've worked on, highlighting my expertise
-              in software development, problem-solving, and creativity. Each
-              project represents my passion for technology and my continuous
-              growth as a developer."
+              A collection of innovative projects spanning UAV development,
+              AI-powered systems, computer vision, and embedded solutions. Each
+              project showcases expertise in cutting-edge technologies and
+              real-world problem solving.
             </p>
           </section>
         </div>
@@ -49,47 +53,153 @@
     <!-- MY-PROJECTS DETAIL MENU : LAPTOP AND MOBILE COMPATIBLE -->
     <div class="my-projects-detail">
       <div class="container">
-        <div class="filter-buttons">
-          <button onclick="filterProjects('all')">All</button>
-          <button onclick="filterProjects('school')">School Projects</button>
-          <button onclick="filterProjects('personal')">
-            Personal Projects
-          </button>
-        </div>
+        <div class="projects-grid">
+          <!-- Project 1: International UAV Project -->
+          <div class="project-card">
+            <div class="project-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+                fill="#5aaee9"
+              >
+                <path
+                  d="M256 0c17.7 0 32 14.3 32 32V66.7C368.4 80.1 431.9 143.6 445.3 224H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H445.3C431.9 368.4 368.4 431.9 288 445.3V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V445.3C143.6 431.9 80.1 368.4 66.7 288H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H66.7C80.1 143.6 143.6 80.1 224 66.7V32c0-17.7 14.3-32 32-32zM128 256a128 128 0 1 0 256 0 128 128 0 1 0 -256 0zm128-80a80 80 0 1 1 0 160 80 80 0 1 1 0-160z"
+                />
+              </svg>
+            </div>
+            <h3>International Unmanned Aerial Vehicle (UAV) Project</h3>
+            <p class="project-date">Jan 2025 - Present</p>
+            <p class="project-description">
+              Designed a 150 cm wingspan UAV under 4 kg with rudder control.
+              Conducted aerodynamic and structural simulations using ANSYS CFD.
+              Integrated ArduPilot and Jetson Nano for autonomous navigation and
+              computer-vision-based tasks.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Mechanical Systems</span>
+              <span class="tag">Software Development</span>
+            </div>
+          </div>
 
-        <div class="row">
-          <div class="item school">
-            <a href="javascript:void(0);" onclick="myLightbox_open('../image/comicbook.webp', 'Comic Book Manager App: Manage your comic book collection with ease.')">
-              <img src="../image/comicbook.webp" alt="Comic Book Icon" />
-            </a>
+          <!-- Project 2: 5G Localization Project -->
+          <div class="project-card">
+            <div class="project-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+                fill="#5aaee9"
+              >
+                <path
+                  d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+                />
+              </svg>
+            </div>
+            <h3>5G Localization Project</h3>
+            <p class="project-date">May 2025 - Aug 2025</p>
+            <p class="project-description">
+              Ranked 4th nationally in the TEKNOFEST 5G Localization category
+              with the AI2X Team. Developed a signal fingerprinting model using
+              Random Forest, XGBoost, and KNN algorithms, achieving
+              high-precision location estimation.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Software Development</span>
+              <span class="tag">Team Leadership</span>
+              <span class="tag">Python</span>
+            </div>
           </div>
-          <div class="item school">
-            <a href="javascript:void(0);" onclick="myLightbox_open  ('../image/medicalstore.webp', 'Medical Store Management: A system to manage medical inventory.')">
-              <img src="../image/medicalstore.webp" alt="Healthcare Icon" />
-            </a>
+
+          <!-- Project 3: IDEF 2025 UAV Health Monitoring -->
+          <div class="project-card">
+            <div class="project-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+                fill="#5aaee9"
+              >
+                <path
+                  d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-384c13.3 0 24 10.7 24 24V264c0 13.3-10.7 24-24 24s-24-10.7-24-24V152c0-13.3 10.7-24 24-24zM224 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"
+                />
+              </svg>
+            </div>
+            <h3>
+              IDEF 2025 – UAV Real-Time Health Monitoring & Predictive
+              Maintenance
+            </h3>
+            <p class="project-date">Jul 2025 - Jul 2025</p>
+            <p class="project-description">
+              Developing an AI-powered system for real-time anomaly detection
+              and Remaining Useful Life (RUL) estimation in UAVs. Uses
+              unsupervised deep learning (LSTM, CNN, Autoencoder) to process
+              multi-sensor data in time and frequency domains, enabling
+              proactive maintenance and enhancing flight safety.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Mechanical Systems</span>
+              <span class="tag">Deep Learning</span>
+              <span class="tag">AI</span>
+            </div>
           </div>
-          <div class="item personal">
-            <a href="javascript:void(0);" onclick="myLightbox_open('../image/arproject.webp', 'Augmented Reality Project: Exploring AR in practical applications.')">
-              <img src="../image/arproject.webp" alt="AR Icon" />
-            </a>
+
+          <!-- Project 4: Autonomous Air Defense Turret System -->
+          <div class="project-card">
+            <div class="project-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+                fill="#5aaee9"
+              >
+                <path
+                  d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM232 344V280H168c-13.3 0-24-10.7-24-24s10.7-24 24-24h64V168c0-13.3 10.7-24 24-24s24 10.7 24 24v64h64c13.3 0 24 10.7 24 24s-10.7 24-24 24H280v64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"
+                />
+              </svg>
+            </div>
+            <h3>Autonomous Air Defense Turret System</h3>
+            <p class="project-date">Oct 2024 - Jun 2025</p>
+            <p class="project-description">
+              Developed a real-time turret system capable of detecting and
+              tracking targets using YOLOv8 object detection. Integrated Jetson
+              Nano for onboard inference and servo-based targeting, optimizing
+              tracking algorithms for low-latency responses and achieving high
+              autonomous aiming accuracy.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Mechanical Systems</span>
+              <span class="tag">Software Development</span>
+              <span class="tag">Image Processing</span>
+              <span class="tag">Python</span>
+            </div>
           </div>
-          <div id="long-item" class="item personal">
-            <a href="javascript:void(0);" onclick="myLightbox_open('../image/air_defence.jpg', 'Air Defense System: An advanced system for air defense mechanisms.')">
-              <img src="../image/air_defence.jpg" alt="Air Defense System" />
-            </a>
-          </div>
-          <div id="long-item" class="item personal">
-            <a href="javascript:void(0);" onclick="myLightbox_open('../image/sayzek.png', 'SAYZEK Project: A project featured in the SAYZEK competition.')">
-              <img src="../image/sayzek.png" alt="SAYZ Logo" />
-            </a>
+
+          <!-- Project 5: Virtual Clothing Fitting System -->
+          <div class="project-card">
+            <div class="project-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+                fill="#5aaee9"
+              >
+                <path
+                  d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"
+                />
+              </svg>
+            </div>
+            <h3>Virtual Clothing Fitting System | TÜBİTAK 2209-A</h3>
+            <p class="project-date">Mar 2024 - Mar 2025</p>
+            <p class="project-description">
+              Received research funding for the project "Virtual Clothing
+              Fitting System", enabling real-time virtual try-on using OpenCV
+              and Python. Recognized for innovation and practical AI
+              implementation.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Software Development</span>
+              <span class="tag">Team Leadership</span>
+              <span class="tag">Image Processing</span>
+              <span class="tag">Python</span>
+            </div>
           </div>
         </div>
-        
-    <div id="lightbox" class="lightbox">
-      <div class="lightbox-content">
-        <span class="close" onclick="myLightbox_close()">×</span>
-        <img src="" id="lightbox-img" alt="Project Image" />
-        <p id="lightbox-description"></p>
       </div>
     </div>
 
