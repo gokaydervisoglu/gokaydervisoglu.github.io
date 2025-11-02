@@ -1,29 +1,36 @@
-# gokaydervisoglu.github.io
+# gokaydervisoglu.com
 
-This repository hosts the personal website of **Gokay Dervisoglu**, a Computer Engineering candidate with a focus on design, web development, and artificial intelligence projects. The site showcases projects, experience, and skills, and provides a gateway for professional connections.
-
-## 📁 Project Structure
-
-- **index.html**: The main HTML file serving as the homepage, with links to the stylesheet and other resources.
-- **css/style.css**: Stylesheet defining the design and layout.
-- **js**: JavaScript files for interactivity and enhanced functionality.
+Personal portfolio website of **Gökay Dervişoğlu**, a Computer Engineering student specializing in AI-powered solutions, embedded systems, and innovative projects with expertise in deep learning, computer vision, and autonomous systems.
 
 ## 🌐 Website
 
-The website is accessible at [gokaydervisoglu.com](https://gokaydervisoglu.com) (custom domain) or through [gokaydervisoglu.github.io](https://gokaydervisoglu.github.io).
+Visit the live site at [gokaydervisoglu.com](https://gokaydervisoglu.com)
+
+## 📁 Project Structure
+
+- **index.html**: Homepage with hero section
+- **html/about.html**: About page with experience section
+- **html/projects.html**: Projects showcase with detailed cards
+- **html/contact.html**: Contact form and information
+- **css/**: Stylesheets for each page
+- **js/**: JavaScript for interactivity
+- **image/**: Assets (profile images, favicon)
 
 ## 🚀 Features
 
-- **Responsive Design**: Optimized for viewing on both desktop and mobile devices.
-- **Project Highlights**: Contains sections that highlight Gokay's work, including contributions to projects like TÜBİTAK and TEKNOFEST.
+- **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices
+- **Modern UI/UX**: Clean, professional design with smooth animations
+- **Project Showcase**: Detailed project cards with descriptions and technologies
+- **Interactive Elements**: Hamburger menu, form validation, live clock
 
 ## 🛠️ Technologies
 
-This website is built with:
-- **HTML5** and **CSS3** for structure and styling
-- **JavaScript** for interactivity
-- **GitHub Pages** for deployment
+- **HTML5** & **CSS3** - Structure and styling
+- **JavaScript** - Interactivity and dynamic content
+- **GitHub Pages** - Hosting and deployment
 
 ## 📬 Contact
 
-Feel free to connect with Gokay through the website or reach out via email at [gokaydervisoglu@gmail.com](mailto:gokaydervisoglu@gmail.com).
+Email: [gokaydervisoglu@gmail.com](mailto:gokaydervisoglu@gmail.com)  
+LinkedIn: [linkedin.com/in/gokaydervisoglu](https://www.linkedin.com/in/gokaydervisoglu/)  
+Location: Trabzon, Turkey
